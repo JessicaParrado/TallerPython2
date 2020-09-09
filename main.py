@@ -11,6 +11,7 @@ def conocerPalindromo(palabra):
 def main():
     print("Binevenido, con este programa podrá concocer si una palabra es palíndroma");
     palabra="";
+    palabra=input("Ingrese palabra");
     conocerPalindromo(palabra)
 
 if __name__ == '__main__':
